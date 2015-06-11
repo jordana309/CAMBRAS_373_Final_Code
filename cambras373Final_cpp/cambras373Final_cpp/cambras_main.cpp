@@ -1,7 +1,7 @@
 /* cambras_main.cpp
  * Michael Ah Sue, Jordan Argyle, Matthew Bare, Angus Cameron,
     Debora Lyn Moran, Shaun Rhodes, Peter Schleede
-    ie team CAMBRA
+    ie Team CAMBRA
  * ME373-Numerical Methods for Engineers Spring 2015
  * Final Project
 
@@ -73,9 +73,38 @@ int main()
 {
   // -- Variable Declarations -- \\
   //type var; // Quick summary of what the var does
-
+  string msg, errmsg;   // The message and error message to send verification functions
+  unsigned int stID;            // Holds the enum index of the state, or the state ID
   // -- 1) First main subsection. -- \\
-  // a) What 1a is
+  // 1a) What 1a is
   // Code for 1a
   //...
+
+  msg = "Enter a state: ";
+  errmsg = "No, a state, please. You can use the name, or the 2-letter abbreviation.\n\n";
+  stID = vstate(msg, errmsg);
+  cout << State(stID);
+  pause("Hit a key to exit");
+
+  /* C++:
+    Tell them what we're doing
+    Ask where they live
+    Pull in data for that location
+    Give them state-wide/average-per-resident-of-state data
+    Ask them lots of personal questions
+    Use that data to give them their average
+    Compare their usage to the "average" from their state
+    How much their state would produce if everyone in it produced as much as they did
+    Extrapolate back their their life (up 'till now) and present cumulative until now
+    Extrapolate forward until they die (until you die), and give how much more damage they'll cause
+    Combine it all, and show them how much they'll damage the world
+    Output a file with personal data for them to import into Matlab for better visualization
+
+  * Matlab:
+    Crunch census data, state power generation data, and state emissions data
+    Output it all to a file for C++ to read in, giving all useful info for each state in a single file
+    ---
+    Inport C++ output and plot it for them, or otherwise visualize it (bar graphs, whatever)
+    Stress the importance of taking care of the planet!
+  */
 }

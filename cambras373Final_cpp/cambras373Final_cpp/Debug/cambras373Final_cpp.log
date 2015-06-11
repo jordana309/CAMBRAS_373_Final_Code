@@ -1,0 +1,18 @@
+﻿Build started 6/11/2015 6:40:30.
+     1>Project "C:\Users\jargyle\Documents\Visual Studio 2012\Projects\CAMBRAS_373_Final_Code\cambras373Final_cpp\cambras373Final_cpp\cambras373Final_cpp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt cambras_main.cpp
+         cambras_main.cpp
+     1>c:\users\jargyle\documents\visual studio 2012\projects\cambras_373_final_code\cambras373final_cpp\cambras373final_cpp\helpful.h(149): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jargyle\documents\visual studio 2012\projects\cambras_373_final_code\cambras373final_cpp\cambras373final_cpp\helpful.h(140): warning C4101: 'c' : unreferenced local variable
+     1>c:\users\jargyle\documents\visual studio 2012\projects\cambras_373_final_code\cambras373final_cpp\cambras373final_cpp\helpful.h(39): warning C4715: 'vdblIn' : not all control paths return a value
+     1>c:\users\jargyle\documents\visual studio 2012\projects\cambras_373_final_code\cambras373final_cpp\cambras373final_cpp\helpful.h(92): warning C4715: 'vfilename' : not all control paths return a value
+     1>c:\users\jargyle\documents\visual studio 2012\projects\cambras_373_final_code\cambras373final_cpp\cambras373final_cpp\helpful.h(364): warning C4715: 'vstate' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jargyle\Documents\Visual Studio 2012\Projects\CAMBRAS_373_Final_Code\cambras373Final_cpp\Debug\cambras373Final_cpp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\jargyle\Documents\Visual Studio 2012\Projects\CAMBRAS_373_Final_Code\cambras373Final_cpp\Debug\cambras373Final_cpp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jargyle\Documents\Visual Studio 2012\Projects\CAMBRAS_373_Final_Code\cambras373Final_cpp\Debug\cambras373Final_cpp.lib" /MACHINE:X86 Debug\cambras_main.obj
+         cambras373Final_cpp.vcxproj -> C:\Users\jargyle\Documents\Visual Studio 2012\Projects\CAMBRAS_373_Final_Code\cambras373Final_cpp\Debug\cambras373Final_cpp.exe
+     1>Done Building Project "C:\Users\jargyle\Documents\Visual Studio 2012\Projects\CAMBRAS_373_Final_Code\cambras373Final_cpp\cambras373Final_cpp\cambras373Final_cpp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.00

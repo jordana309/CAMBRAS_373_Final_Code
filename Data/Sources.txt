@@ -1,0 +1,6 @@
+http://www.eia.gov/electricity/data/state/
+Annual Consumption by Industry and State
+Annual Emission by State
+Annual Generation by State
+
+NEXT SOURCE
