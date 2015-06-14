@@ -1,6 +1,7 @@
 /* cambras_main.cpp
  * Michael Ah Sue, Jordan Argyle, Matthew Bare, Angus Cameron,
     Debora Lyn Moran, Shaun Rhodes, Peter Schleede
+    ie Team CAMBRA (last names of each member, if you must know)
  * ME373-Numerical Methods for Engineers Spring 2015
  * Final Project
 
