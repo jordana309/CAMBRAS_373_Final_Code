@@ -79,6 +79,7 @@
     <ClCompile Include="cambras_main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="argyle.h" />
     <ClInclude Include="helpful.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

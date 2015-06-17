@@ -60,6 +60,7 @@ using namespace std;
 /*---- Includes: needed libraries ----*/
 #include <conio.h>  // To be able to use _kbhit()
 #include "helpful.h" // Includes helpufl functions to use
+#include "argyle.h"  // All of Argyle's code
 
 /*---- Function summaries ----*/
 /* function full name: explain function quickly. Function name is abbreviated
