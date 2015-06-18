@@ -23,8 +23,5 @@
     <ClInclude Include="helpful.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="argyle.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
